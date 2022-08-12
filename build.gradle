@@ -27,18 +27,38 @@ repositories {
 }
 
 dependencies {
-    implementation ('org.springframework.boot:spring-boot-starter-web')
 
+    implementation ('org.springframework.boot:spring-boot-starter-web')
     implementation ('org.projectlombok:lombok')
+    
+    /**
+     * Gradel 5.x 이상부터는 Lombok 의존성 주입을 아래와 같이 해야 함
+     * */
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    /**
+     * 스프링 부트용 Spring Data Jpa 추상화 라이브러리 입니다.
+     * 스프링 부트 버전에 맞춰 자동으로 JPA 관련 라이브러리들의 버전을 관리해 줍니다.
+     * */
     implementation ('org.springframework.boot:spring-boot-starter-data-jpa')
-    implementation ('org.springframework.boot:spring-boot-starter-mustache')
+
+    /**
+     * 인메모리 관계형 데이터베이스 입니다.
+     * 별도의 설치가 필요 없이 프로젝트 의존성만으로 관리 할 수 있음
+     * 메모리에서 실행되기 때문에 애플리케이션을 재시작 할 떄 마다 초기화 됩니다.
+     * */
     implementation ('com.h2database:h2')
 
+    /*
+    implementation ('org.springframework.boot:spring-boot-starter-mustache')
     implementation ('org.springframework.boot:spring-boot-starter-oauth2-client')
     implementation ('org.springframework.session:spring-session-jdbc')
-
     implementation ("org.mariadb.jdbc:mariadb-java-client")
-
+    */
     testImplementation('org.springframework.boot:spring-boot-starter-test')
+
+    /*
     testImplementation("org.springframework.security:spring-security-test")
+     */
 }
