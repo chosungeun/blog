@@ -1,10 +1,10 @@
-# blog Project
+This is a H1 blog Project
 개인공부를 위한 blog 프로젝트 입니다.
 
 - Spring-boot : 2.1.9
 - Gradle : 7.4
 
-# 프로젝트를 진행하며, 기록이 필요한 부분을 작성 했습니다.
+This is a H1 프로젝트를 진행하며, 기록이 필요한 부분을 작성 했습니다.
 1. Gradl 의 Compile 과 implementation
   - compile 은 implementation 보다 더 많은 라이브러리를 빌드합니다.
   - 엔터프라이즈 프로젝트 시, compile 보다는 implementation 을 사용하는 것이 더욱 적절 합니다. 
