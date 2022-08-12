@@ -20,12 +20,20 @@
 - 그 이유는 Gradle 버전이 올라가면서 Lombok 의존성을 추가하는 방법이 바뀌었기 때문입니다.
 
 - Gradle 5.x 미만
+<pre>
+<code>
 dependencies {
   implementation 'org.projectlombok:lombok'
 }
+</pre>
+</code>
 
 - Gradle 5.x 이상
+<pre>
+<code>
 dependencies {
   compileOnly 'org.projectlombok:lombok'
   annotationProcessor 'org.projectlombok:lombok'
 }
+</pre>
+</code>
