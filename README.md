@@ -1,8 +1,8 @@
 # blog Project
 개인공부를 위한 blog 프로젝트 입니다.
 
-Spring-boot : 2.1.9
-Gradel : 7.4
+- Spring-boot : 2.1.9
+- Gradle : 7.4
 
 # 프로젝트를 진행하며, 기록이 필요한 부분을 작성 했습니다.
 1. Gradl 의 Compile 과 implementation
