@@ -37,3 +37,6 @@ dependencies {
 }
 </pre>
 </code>
+
+## 3. 더티 체킹 (Dirty checking)
+- https://jojoldu.tistory.com/415
