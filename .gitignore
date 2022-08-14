@@ -1,4 +1,9 @@
 # Project exclude paths
 .gradel
 .idea
+application-oauth.properties
+
+build
+out
+
 /.gradle/
