@@ -1,5 +1,6 @@
 package com.sungeun.admin.web.dto;
 
+import com.sungeun.admin.domain.user.web.dto.HelloResponseDto;
 import org.junit.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 

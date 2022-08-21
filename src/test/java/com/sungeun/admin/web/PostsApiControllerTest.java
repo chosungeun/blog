@@ -3,8 +3,8 @@ package com.sungeun.admin.web;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import com.sungeun.admin.domain.posts.PostsRepository;
-import com.sungeun.admin.web.dto.PostsSaveRequestDto;
-import com.sungeun.admin.web.dto.PostsUpdateRequestDto;
+import com.sungeun.admin.domain.user.web.dto.PostsSaveRequestDto;
+import com.sungeun.admin.domain.user.web.dto.PostsUpdateRequestDto;
 
 import com.sungeun.admin.domain.posts.Posts;
 
@@ -30,8 +30,6 @@ import static org.springframework.security.test.web.servlet.setup.SecurityMockMv
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-
-import org.springframework.http.MediaType;
 
 /**
  * Api Controller 를 테스트하는데, HelloController 와 달리 @WebMvcTest 를 사용하지 않았습니다.

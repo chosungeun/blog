@@ -1,10 +1,10 @@
 package com.sungeun.admin.service.posts;
 
 import com.sungeun.admin.domain.posts.PostsRepository;
-import com.sungeun.admin.web.dto.PostsSaveRequestDto;
-import com.sungeun.admin.web.dto.PostsListResponseDto;
-import com.sungeun.admin.web.dto.PostsResponseDto;
-import com.sungeun.admin.web.dto.PostsUpdateRequestDto;
+import com.sungeun.admin.domain.user.web.dto.PostsSaveRequestDto;
+import com.sungeun.admin.domain.user.web.dto.PostsListResponseDto;
+import com.sungeun.admin.domain.user.web.dto.PostsResponseDto;
+import com.sungeun.admin.domain.user.web.dto.PostsUpdateRequestDto;
 import com.sungeun.admin.domain.posts.Posts;
 
 import lombok.RequiredArgsConstructor;

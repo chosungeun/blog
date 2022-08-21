@@ -2,6 +2,7 @@ package com.sungeun.admin.web;
 
 import com.sungeun.admin.config.auth.SecurityConfig;
 
+import com.sungeun.admin.domain.user.web.HelloController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
