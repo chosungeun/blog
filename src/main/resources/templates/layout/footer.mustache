@@ -1,0 +1,17 @@
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- index.js 추가 -->
+<script src="/js/app/index.js"></script>
+
+<!--
+코드를 보면 css 와 js 위치가 서로 다릅니다.
+페이지 로딩속도를 높이기 위해 css 는 header 에 js는 footer 에 두었습니다.
+HTML은 위에서부터 코드가 실행되기 때문에 head 가 다 실행되고서야 body가 실행됩니다.
+즉, head 가 다 불러지지 않으면 사용자 쪽에선 백지 화면만 노출됩니다.
+특히, js 의 용량이 클수록 body 부분의 실행이 늦어지지 때문에 js는 body 하단에 두어 화면이 다 그려진 뒤에 호출하는 것이 좋습니다.
+-->
+
+</body>
+</html>
